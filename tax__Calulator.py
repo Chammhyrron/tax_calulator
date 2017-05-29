@@ -1,7 +1,6 @@
-tax= 0
-total = 0
-price = int(input('the total price of the items '))
-tax = price*0.065
+Sales_tax= 0.065
+price = float(input('the total price of the items '))
+tax = price*Sales_tax
 print('taxes '+str(tax))
 
 total = price+tax
